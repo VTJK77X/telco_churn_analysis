@@ -26,9 +26,9 @@ Data types are corrected (e.g., TotalCharges to numeric, categorical columns to 
 The SeniorCitizen column is mapped from 0/1 to a more descriptive 'No'/'Yes'.
 A small number of rows with missing TotalCharges are dropped.
 
-## Exploratory Data Analysis (EDA):
+## Exploratory Data Analysis (EDA)
 The skimpy library is used for a comprehensive statistical summary of the dataset.
 The duckdb library is employed to run complex SQL queries for segmenting the data and calculating churn rates across various customer attributes. This approach allows for powerful and readable data aggregation.
 
-## Feature Importance Analysis:
+## Feature Importance Analysis
 Information Value (IV) and Weight of Evidence (WoE) are calculated for all categorical variables to measure their predictive power in relation to the churn outcome. This helps quantify which factors are most significant.
